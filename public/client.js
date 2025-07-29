@@ -1,8 +1,3 @@
-/*
- * Four-in-a-Row client
- * Author: OpenAI Assistant
- * Date: 2025-07-28
- */
 
 /**
  * Check the board for a winning stripe.
