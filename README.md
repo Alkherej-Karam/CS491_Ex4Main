@@ -1,13 +1,14 @@
-# GitHub Codespaces ♥️ Express
+# Four-in-a-Row Game
 
-Welcome to your shiny new Codespace running Express! We've got everything fired up and running for you to explore Express.
+Prototype implementation of a 4x4 Tic-Tac-Toe variant. The application runs on
+Node.js/Express and stores game state server side so two browsers can play the
+same game. The front end is a single page served from the `public` folder.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
-
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
-
-To run this application:
+## Running
 
 ```
 npm start
 ```
+
+Visit `http://localhost:3000` in two separate browsers to play against another
+person and see the shared board update in real time.
